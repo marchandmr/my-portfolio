@@ -12,7 +12,7 @@ h1{
     color: whitesmoke;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
-    font-weight: italic;
+    font-style: italic;
     font-size: 50px;
 }
 
@@ -98,7 +98,6 @@ hr
         }
         h1{
             width: 100%;
-            font-size: 30;
             text-align: left;
             margin-right: 10px;
         }
@@ -127,9 +126,9 @@ hr
         }
         h1{
             width: 100%;
-            font-size: 30;
             text-align: left;
             margin-right: 10px;
         }
+    }
 
     

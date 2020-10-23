@@ -9,7 +9,7 @@ body{
 h1 { text-align: center;
     color: whitesmoke;
     font-family: 'Sansita Swashed', cursive;
-    font-weight: italic;
+    font-style: italic;
     font-size: 50px;
 
     }
@@ -39,11 +39,7 @@ h1 { text-align: center;
     }  
     
 
-    .col-sm img{
-        padding-right:  20px auto;
-        
    
-}
 
 #footer {
     
