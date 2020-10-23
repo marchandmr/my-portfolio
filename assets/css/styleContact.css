@@ -1,0 +1,135 @@
+
+body{
+    background-image: url("../images/background-3.jpg" );  
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h1{
+
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: italic;
+    font-size: 50px;
+}
+
+
+.container{
+    margin: 50px auto;  
+    background-image: url("../images/contact\ form1.jpg" ); 
+    background-size: cover;
+    border-radius: 10%;
+     
+    width:45%;
+   padding: 0 65px;
+  
+}
+
+.inputHeading{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6f61;
+    padding-top:20px;
+}
+
+hr  
+    {  
+    width: 100%;  
+    height: 2px;    
+    margin-bottom: 7px;  
+    margin-right: auto;  
+    margin-left:  auto;  
+    margin-top: 9px;  
+    border-width: 4px;  
+    border-color: #333;  
+    }  
+    
+   
+    #footer {
+    
+        font-family: 'Sansita Swashed', cursive;
+        text-align: center;
+        color: whitesmoke;
+        position: absolute;
+        width: 100%;
+        height: 2.5rem;
+        float: left;
+        left: 0;
+        padding: 30px;
+        padding-top: 15%;
+    }
+
+    .card{
+        background-color: #333;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+
+
+        input{   
+            
+             width: 100%;
+             padding: 5px;
+           }
+     }
+
+     @media screen and (max-width: 350px) {
+
+    
+
+        .container{
+            width: 80%;
+          
+        }
+        
+        input{   
+            
+            width: 100%;
+            padding: 5px;
+          }
+        #comment
+        {
+            width: 100%;
+            padding: 5px;
+        }
+        h1{
+            width: 100%;
+            font-size: 30;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+       
+    }
+
+    @media screen and (max-width: 500px) {
+
+    
+
+        .container{
+            width: 80%;
+          
+        }
+        
+        input{   
+            
+            width: 100%;
+            padding: 5px;
+          }
+        #comment
+        {
+            width: 100%;
+            padding: 5px;
+        }
+        h1{
+            width: 100%;
+            font-size: 30;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+    
