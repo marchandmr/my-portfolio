@@ -52,8 +52,8 @@ h1{
     height: 2.5rem;
     float: left;
     left: 0;
-    padding: 30px;
-    padding-top: 15%;
+    padding: 10px;
+    padding-top: 22%;
 }
 
 hr  
@@ -70,8 +70,9 @@ border-color: #333;
 
 
 
-.card{
+.card-header{
     background-color: #333;
+    width: 100%
 }
 
 
