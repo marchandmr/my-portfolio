@@ -6,23 +6,25 @@ body{
 }
 
 
-h1 { text-align: center;
+#portfolio { text-align: center;
     color: whitesmoke;
     font-family: 'Sansita Swashed', cursive;
     font-style: italic;
     font-size: 50px;
 
     }
-
+h4{
+    color: whitesmoke;
+   
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+}
 
 .row{
     margin: 10px auto;  
     text-align: center; 
      width:50%;
     padding: 0 65px;
-    
-    
-    
     }
     
     
@@ -41,23 +43,12 @@ h1 { text-align: center;
 
    
 
-#footer {
-    
-    font-family: 'Sansita Swashed', cursive;
-    text-align: center;
-    color: whitesmoke;
-    position: absolute;
-    width: 100%;
-    height: 2.5rem;
-    float: left;
-    left: 0;
-    padding: 30px;
-    padding-top: 15%;
-}
+    footer {
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+       }
 
-.card{
-    background-color: #333;
-}
 
 
 @media screen and (max-width: 768px) {

@@ -52,81 +52,46 @@
     <!--start of boot straps grid-->
     <div class="container e-mail">
       <div class="row">
-        <div class="col-med">
-          <h1>Contact me!</h1>
+        <div class="col-med-12">
+          <h1 class="contactMe">Contact me!</h1>
           <hr>
         </div>
       </div>
       <div class="row">
-        <div class="col-med-12">
-          <p class="inputHeading"> Name</p>
-          <input type="text" name="username" value="Enter Name">
+        <div class="col-med">
+          <form action="https://formspree.io/f/mjvpwajk" method="POST">
+            <label>
+              Your email:
+            </label>
+            <input type="text" name="_replyto">
         </div>
       </div>
       <div class="row">
-        <div class="col-med-12">
-          <p class="inputHeading">Email</p>
-          <input type="email" name="address" value="example@gmail.com">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-med-12">
-          <p class="inputHeading">Message</p>
-          <textarea name="comment" id="comment"></textarea><br>
-          <input type="submit" value="Submit">
+        <div class="col-med">
+          <label>
+            Your message:
+            <textarea name="message"> </textarea>
+          </label>
+          <button type="submit">Send</button>
+          </form>
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-med">
-          <h3>My Socials</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-med">
-          <ul>
-            <li>
-              <p><br><a href="www.linkedin.com/in/matthewmarchand-ab55211ba"> <img src="assets/images/linkedin-64.png"
-                    alt="Linkedin"></a></p>
-            </li>
-            <li>
-              <p><br><a href="marchandmr@icloud.com"><img src="assets/images/email-icon.png" alt="E-mail"></a>
-              </p>
-            </li>
-            <li>
-              <p><br><a href="https://github.com/marchandmr"> <img src="assets/images/github-icon.png" alt="GitHub"></a>
-              </p>
-            </li>
-            <li>
-              <p><br><a href="assets/resume/Resume.pdf"> Check out my Resume!</a>
-            </li>
-            <li>
-              <p><br> Phone Number: 469-406-3774</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <footer id="footer">
-        <!--footer is in the container but not in a row / col-->
-        <div class="card">
-          <div class="card-header">
-            <h3 id="contact">Footer</h3>
-
-          </div>
-        </div>
-      </footer>
-
-
-      <!--end of grid-->
-
-
   </section>
 
 
 
+  <!-- Footer -->
+  <footer class="page-footer font-small cyan darken-3">
+    <div class="container">
+      <div class="footer-copyright text-center py-3">
+        <a href="www.linkedin.com/in/matthewmarchand-ab55211ba"> <img src="assets/images/li-logo.png"
+            alt="Linkedin"></a>
+        <a href="assets/resume/Resume.pdf"><img src="assets/images/portfolio-img.png" alt="Resume"></a>
+        <a href="mailto:marchandmr@icloud.com"><img src="assets/images/email-icon.png" alt="E-mail"></a>
+        <a href="https://github.com/marchandmr"> <img src="assets/images/github-icon.png" alt="GitHub"></a>
+  </footer>
+  <!-- Footer -->
 
 
 </body>
