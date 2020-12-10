@@ -1,13 +1,13 @@
 
 body{
-    background-image: url("../images/background-3.jpg" );  
-    background-size: cover;
-    background-position: center;
+    background:-webkit-repeating-radial-gradient(circle,#8c8eb6,#8c8eb6 8px,#e8e8e5 8px,#e8e8e5 20px); 
+    background: repeating-radial-gradient(circle,#8c8eb6,#8c8eb6 8px,#e8e8e5 8px,#e8e8e5 20px);
+    background-size:37px 34px;
 }
 
 
 #portfolio { text-align: center;
-    color: whitesmoke;
+    color: #333
     font-family: 'Sansita Swashed', cursive;
     font-style: italic;
     font-size: 50px;
@@ -50,7 +50,7 @@ h4{
        }
 
        
-       a { color: whitesmoke; } /* CSS link color (red) */
+       a { color: #333; } /* CSS link color (red) */
        a:hover { color: blueviolet; } /* CSS link hover (green) */
 
 @media screen and (max-width: 768px) {

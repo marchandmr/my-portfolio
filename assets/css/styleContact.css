@@ -1,12 +1,9 @@
 
 body{
-    background-image: url("../images/background-3.jpg" );  
-    background-size: cover;
-    background-position: center;
+    background:-webkit-repeating-radial-gradient(circle,#8c8eb6,#8c8eb6 8px,#e8e8e5 8px,#e8e8e5 20px); 
+    background: repeating-radial-gradient(circle,#8c8eb6,#8c8eb6 8px,#e8e8e5 8px,#e8e8e5 20px);
+    background-size:37px 34px;
 }
-
-
-
 h1{
 
     color: whitesmoke;
