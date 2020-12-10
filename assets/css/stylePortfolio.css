@@ -49,8 +49,11 @@ h4{
         background-color: #333;
        }
 
-       
-       a { color: #333; } /* CSS link color (red) */
+       .portfolio
+       {color: #333;
+        background-color: whitesmoke;
+       }
+      
        a:hover { color: blueviolet; } /* CSS link hover (green) */
 
 @media screen and (max-width: 768px) {
